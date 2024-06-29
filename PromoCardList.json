@@ -1,0 +1,295 @@
+﻿{
+  "GrandWarlordVoss": [
+
+    {
+      "identifier": "GrandWarlordVossCharacter",
+      "promoIdentifier": "InvaderVossCharacter",
+      "overrideTurnTakerController": "InvaderVoss",
+      "count": 1,
+      "title": "Grand Warlord Voss",
+      "promoTitle": "Invader Voss",
+      "keywords": [
+        "villain",
+        "thorathian"
+      ],
+      "body": "Flagship Commander",
+      "backgroundColor": "BA55D3",
+      "foilBackgroundColor": "DD2F36",
+      "character": true,
+      "flippedHitpoints": 55,
+      "nemesisIdentifiers": [
+        "Tempest",
+        "SkyScraper"
+      ],
+      "setup": [
+        "At the start of the game, [i]Invader Voss[/i] enters play “Flagship Commander“ side up.",
+        "All minion cards are put in the villain trash.  The “TCF Stalwart“ card is put into play.",
+        "Put all “Forced Deployment“ cards to the side.  Shuffle the villain deck, then put the “Forced Deployment“ cards on the bottom of the villain deck."
+      ],
+      "gameplay": [
+        "When a card called “Forced Deployment“ is destroyed, [i]Invader Voss[/i] flips.",
+        "Increase damage to villain targets other than “TCF Stalwart“ by {5 - H}.",
+        "The “TCF Stalwart“ is indestructible."
+      ],
+      "advanced": "This card does not increase damage to villain targets.",
+      "icons": [
+        "IncreaseDamageTaken",
+        "Indestructible"
+      ],
+      "advancedIcons": [
+
+      ],
+      "flippedBody": "Invasion Leader",
+      "flippedGameplay": [
+        "Reduce damage to [i]Invader Voss[/i] by 1 for each minion in play.",
+        "Whenever a minion card is destroyed, [i]Invader Voss[/i] deals himself 1 irreducible psychic damage.",
+        "At the end of the Villain turn, [i]Invader Voss[/i] deals the 2 hero targets with the highest HP {H - 1} energy damage each."
+      ],
+      "flippedAdvanced": "This card does not cause [i]Invader Voss[/i] to deal himself 1 irreducible psychic damage whenever a minion is destroyed.",
+      "flippedIcons": [
+        "ReduceDamageTaken",
+        "DealDamagePsychic",
+        "EndOfTurnAction",
+        "DealDamageEnergy"
+      ],
+      "flippedAdvancedIcons": [
+
+      ],
+      "difficulty": 4,
+      "challengeTitle": "Overwhelming Invasion",
+      "challengeText": "If it is not the villain turn, “Forced Deployment“ cards are indestructible.",
+      "challengeIcons": [
+        "Indestructible"
+      ],
+      "openingLines": {
+        "default": "The invasion commences... now!",
+        "TempestCharacter": "I shall conquer this world as easily as I did Vognild Prime.",
+        "SkyScraperNormalCharacter": "If you do not stand with your people, you shall fall before them.",
+        "Workshopping.CentristSkyScraperNormalCharacter": "These negotiations have stalled!",
+        "LazyFanComix.TempestRisingWindsCharacter": "I will rule here, even if the land itself rises against me!"
+      }
+    }
+  ],
+  "Spite": [
+    {
+      "identifier": "SpiteCharacter",
+      "promoIdentifier": "StalkingTheStreetsSpiteCharacter",
+      "count": 1,
+      "title": "Spite",
+      "promoTitle": "Stalking the Streets Spite",
+      "keywords": [
+        "villain"
+      ],
+      "body": "Mutating Murderer",
+      "backgroundColor": "EF3038",
+      "foilBackgroundColor": "DD2F36",
+      "character": true,
+      "hitpoints": 75,
+      "nemesisIdentifiers": [
+        "TheWraith"
+      ],
+      "setup": [
+        "At the start of the game, {Spite} enters play “Mutating Murderer“ side up.",
+        "The “Safe House“ card is put into play. The Villain Deck is shuffled."
+      ],
+      "gameplay": [
+        "When {Spite} deals damage, he regains that much HP.",
+        "At the end of the villain turn, the top card of the villain deck is played. Then, {Spite} deals the hero target with the lowest HP {H - 2} melee damage.",
+        "At the start of the villain turn, if there are 5 drug cards in play, {Spite} flips.",
+        "If there are ever 5 victims in the villain trash, {Spite} wins.",
+        "If there are ever 6 cards under the Safe House card, the heroes win."
+      ],
+      "advanced": "At the start of the villain turn, if there are 2 or more victim cards in play, destroy 1 Victim card.",
+      "icons": [
+        "GainHP",
+        "StartAndEndOfTurnAction",
+        "PlayCardNow",
+        "DealDamageMelee",
+        "LoseTheGame",
+        "WinTheGame"
+      ],
+      "advancedIcons": [
+        "Destroy"
+      ],
+      "flippedBody": "Wandering Abomination",
+      "flippedGameplay": [
+        "When {Spite} flips to this side, all villain cards in play other than drugs and this card are destroyed.",
+        "Any drug card which would act at the end of the villain turn instead acts at the start of the villain turn.",
+        "Whenever a villain card would enter play, instead play the top card of the environment deck."
+      ],
+      "flippedAdvanced": "At the end of the Villain turn, play the top card of the environment deck.",
+      "flippedIcons": [
+        "Destroy"
+      ],
+      "flippedAdvancedIcons": [
+        "EndOfTurnAction",
+        "PlayCardNow"
+      ],
+      "difficulty": 3,
+      "challengeTitle": "Grapple With This!",
+      "challengeText": "Increase damage dealt by environment cards by 1.",
+      "challengeIcons": [
+        "IncreaseDamageDealt"
+      ],
+      "openingLines": {
+        "default": "Come out, come out, wherever you are...",
+        "TheWraithCharacter": "Haven't you learned by now?  You can't save everyone.",
+        "LazyFanComix.TheWraithImprovisedGearCharacter": "Everything you have breaks so easily.  Your little toys.  Your little friends."
+      }
+    }
+
+  ],
+  "DarkMindMod.MindReaper": [
+    {
+      "identifier": "MindReaperCharacter",
+      "promoIdentifier": "TheIncorporealMindReaperCharacter",
+      "overrideTurnTakerController": "TheIncorporealMindReaper",
+      "count": 1,
+      "title": "Mind Reaper",
+      "promoTitle": "The Incorporeal Mind Reaper",
+      "keywords": [
+        "villain"
+      ],
+      "body": "Body-Jumper",
+      "backgroundColor": "A6FFA6",
+      "foilBackgroundColor": "DD2F36",
+      "character": true,
+      "nemesisIdentifiers": [
+        "TheVisionary"
+      ],
+      "setup": [
+        "At the start of the game, {MindReaper} enters play “Body-Jumper“ side up.",
+        "“Possession“ is put into play next to the hero with the highest HP. Shuffle the villain deck."
+      ],
+      "gameplay": [
+        "Whenever a villain one-shot enters play, if the hero with the highest HP is possessed, this card flips; otherwise, move “Possession“ next to them.",
+        "The first time each turn that the possessed hero would deal damage to themself, redirect that damage to the non-possessed hero target with the highest HP.",
+        "At the end of the villain turn, the possessed hero uses the power on their character card.",
+        "If “Psychic Barrier“ is in play, reduce damage to the possessed hero by 2.",
+        "The hero “Possession“ is next to is possessed. If the possessed hero is incapacitated, the heroes win. If all non-possessed heroes are incapacitated, the heroes lose. “Possession“ cannot be destroyed, flipped, or moved, except by this card."
+      ],
+      "advanced": "At the start of the game, cards are revealed from the top of the villain deck until {H - 2} projections are revealed and put into play. Other revealed cards are shuffled back into the villain deck.",
+      "icons": [
+        "RedirectDamage",
+        "EndOfTurnAction",
+        "UsePowerNow",
+        "ReduceDamageTaken",
+        "WinTheGame",
+        "LoseTheGame"
+      ],
+      "advancedIcons": [
+        "DealDamagePsychic"
+      ],
+      "flippedBody": "Mind-Binder",
+      "flippedGameplay": [
+        "Whenever the possessed hero uses a power or draws a card, they regain {H - 1} HP.",
+        "The first time each turn that the possessed hero would deal damage to themself, redirect that damage to the non-possessed hero target with the lowest HP.",
+        "At the end of the villain turn, the possessed hero deals each non-possessed hero target 2 melee damage.",
+        "At the start of the villain turn, {MindReaper} flips.",
+        "The hero “Possession“ is next to is possessed. If the possessed hero is incapacitated, the heroes win. If all non-possessed heroes are incapacitated, the heroes lose. “Possession“ cannot be destroyed, flipped, or moved, except by this card."
+      ],
+      "flippedAdvanced": "Whenever the possessed hero regains HP, all projections regain the same amount of HP.",
+      "flippedIcons": [
+        "GainHP",
+        "RedirectDamage",
+        "EndOfTurnAction",
+        "DealDamageMelee",
+        "WinTheGame",
+        "LoseTheGame"
+      ],
+      "flippedAdvancedIcons": [
+      ],
+      "difficulty": 1,
+      "challengeTitle": "Psychic synchronization",
+      "challengeText": "Whenever the possessed hero deals damage to a target, {MindReaper} deals that target 1 irreducible psychic damage.",
+      "challengeIcons": [
+        "DealDamagePsychic"
+      ],
+      "openingLines": {
+        "default": "I will be flesh, and one of you will be my vessel.",
+        "TheVisionaryCharacter": "Perhaps your body will suit me.  Then again, perhaps not.",
+        "LazyFanComix.TheVisionaryProphecyCharacter": "Your only future is as my host... or my victim!"
+      }
+    }
+  ],
+  "SpookyGhostwriter.GoldDragon": [
+    {
+      "identifier": "GoldDragonHumanCharacter",
+      "promoIdentifier": "TheEverPopularGoldDragonHumanCharacter",
+      "sharedIdentifier": "TheEverPopularGoldDragonCharacter",
+      "count": 1,
+      "title": "Gold Dragon",
+      "promoTitle": "The Ever-Popular Gold Dragon",
+      "body": "Energize",
+      "keywords": [
+        "human"
+      ],
+      "icons": [
+        "HasPower",
+        "DealDamageEnergy"
+      ],
+      "backgroundColor": "daa520",
+      "foilBackgroundColor": "47AD80",
+      "character": true,
+      "powers": [
+        "The next time {GoldDragon} is dealt 2 or more of either energy, fire, lightning, or cold damage, switch to his dragon character card. {GoldDragon} deals 1 target 1 energy damage."
+      ],
+      "hitpoints": 32,
+      "nemesisIdentifiers": [
+        "SpookyGhostwriter.GoldDragon"
+      ],
+      "incapacitatedAbilities": [
+        "One player may draw a card.",
+        "Select a hero. Reduce the next damage to that hero by 2.",
+        "Select a hero. The next time that hero uses a power, they also deal 1 target 1 energy damage."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 3,
+      "openingLines": {
+        "default": "This one's for the fans!"
+      }
+    },
+    {
+      "identifier": "GoldDragonDragonCharacter",
+      "promoIdentifier": "TheEverPopularGoldDragonDragonCharacter",
+      "sharedIdentifier": "TheEverPopularGoldDragonCharacter",
+      "count": 1,
+      "title": "Gold Dragon",
+      "promoTitle": "The Ever-Popular Gold Dragon",
+      "body": "Exhale",
+      "keywords": [
+        "dragon"
+      ],
+      "icons": [
+        "HasPower",
+        "DealDamageEnergy"
+      ],
+      "backgroundColor": "daa520",
+      "foilBackgroundColor": "47AD80",
+      "character": true,
+      "gameplay": [ "Activate {dragon} text.", "When {GoldDragon} is dealt 2 or more damage, switch to his human character card.", " " ],
+      "powers": [
+        "{GoldDragon} deals each target 0 energy damage."
+      ],
+      "hitpoints": 32,
+      "nemesisIdentifiers": [
+        "SpookyGhostwriter.GoldDragon"
+      ],
+      "incapacitatedAbilities": [
+        "One hero may use a power.",
+        "Destroy an ongoing card.",
+        "Until the start of your next turn, change the damage type of damage dealt by hero targets to lightning."
+      ],
+      "flippedIcons": [
+        "PlayCardNow",
+        "UsePowerNow",
+        "DrawCardNow"
+      ],
+      "complexity": 3
+    }
+  ]
+}
