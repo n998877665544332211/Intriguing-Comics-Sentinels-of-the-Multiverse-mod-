@@ -1,0 +1,382 @@
+﻿{
+  "name": "Lootcase",
+  "kind": "Villain",
+  "initialCardIdentifiers": [
+    "LootcaseCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "LootcaseCharacter",
+      "count": 1,
+      "title": "Lootcase",
+      "keywords": [
+        "villain"
+      ],
+      "icons": [
+        "CancelledDamageRed",
+        "EndOfTurnAction",
+        "PlayCardExtra"
+      ],
+      "advancedIcons": [
+      ],
+      "body": "Cunning Cat Burglar",
+      "backgroundColor": "acacac",
+      "foilBackgroundColor": "CD96C0",
+      "character": true,
+      "hitpoints": 40,
+      "nemesisIdentifiers": [
+        "TheWraith"
+      ],
+      "setup": [
+        "At the start of the game, {Lootcase} enters play “Cunning Cat Burglar“ side up."
+      ],
+      "gameplay": [
+        "The first time {Lootcase} would be dealt damage each turn, prevent that damage.",
+        "At the start of the villain turn, if the total loot value of all case cards in play is more than $1,500,000, {Lootcase} flips.",
+        "At the end of the villain turn, play the top card of the villain deck."
+      ],
+      "advanced": "At the start of the game, one “Yoink!“ is put into play.  The villain deck is shuffled.",
+      "flippedBody": "Gentleman Thief",
+      "flippedGameplay": [
+        "Reduce damage dealt to case cards by 1.",
+        "Increase damage dealt by villain targets by 1.",
+        "At the start of the villain turn, if the total loot value of all case cards in play is equal to or less than $1,500,000, {Lootcase} flips.",
+        "At the start of the villain turn, if the total loot value of all case cards in play is more than $3,500,000, {Lootcase} wins.",
+        "At the end of the villain turn, play the top card of the villain deck."
+      ],
+      "flippedAdvanced": "Whenever a case card is destroyed, {Lootcase} deals each hero target 1 projectile damage.",
+      "flippedIcons": [
+        "ReduceDamageTaken",
+        "IncreaseDamageDealt",
+        "EndOfTurnAction",
+        "PlayCardExtra"
+      ],
+      "flippedAdvancedIcons": [
+        "DealDamageProjectile"
+      ],
+      "challengeTitle": "Early Retirement",
+      "challengeText": "At the start of the villain turn, if the total loot value of all case cards in play is more than $3,000,000, {Lootcase} wins.",
+      "challengeIcons": [
+      ],
+      "difficulty": 4,
+      "openingLines": {
+        "default": "Just one big score and then I'm out.  For real, this time.",
+        "TheWraithCharacter": "Ah, stately Montgomery manor.  Let's see what treasures you have waiting for me.",
+        "LazyFanComix.TheWraithImprovisedGearCharacter": "I don't see why you want these trinkets back so badly.  You can always make more."
+      }
+    },
+    {
+      "identifier": "CollectorsItem",
+      "count": 2,
+      "title": "Collector's Item",
+      "keywords": [
+        "case",
+        "$300,000"
+      ],
+      "icons": [
+        "PlayCardNow"
+      ],
+      "body": [
+        "When this card enters play, search the Villain trash for a card named “Yoink!“ and put it into play.",
+        "The loot value of this card is $300,000."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "I don't read them, myself."
+        }
+      ],
+      "flavorReference": "Lootcase, Mystery Comics #151",
+      "hitpoints": 3,
+      "footerTitle": "Loot Value:",
+      "footerBody": [ "$300,000" ]
+    },
+    {
+      "identifier": "GoldBars",
+      "count": 2,
+      "title": "Gold Bars",
+      "keywords": [
+        "case",
+        "$400,000"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "DealDamageMelee"
+      ],
+      "body": [
+        "At the end of the villain turn, {Lootcase} deals the 2 hero targets with the highest HP {H - 1} melee damage each.",
+        "The loot value of this card is $400,000."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "TheWraith",
+          "text": "Feels like I got hit by a ton of bricks!"
+        }
+      ],
+      "flavorReference": "The Wraith, Rook City Noir #1",
+      "hitpoints": 4,
+      "footerTitle": "Loot Value:",
+      "footerBody": [ "$400,000" ]
+    },
+    {
+      "identifier": "ShinyJewels",
+      "count": 2,
+      "title": "Shiny Jewels",
+      "keywords": [
+        "case",
+        "$400,000"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "DealDamageRadiant"
+      ],
+      "body": [
+        "At the end of the Villain turn, this card deals each Hero target 2 radiant damage.",
+        "The loot value of this card is $400,000."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "[b]Dazzling[/b], aren't they?"
+        }
+      ],
+      "flavorReference": "Lootcase, Mystery Comics #102",
+      "hitpoints": 4
+    },
+    {
+      "identifier": "FamilyHeirlooms",
+      "count": 2,
+      "title": "Family Heirlooms",
+      "keywords": [
+        "case",
+        "$500,000"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "DestroyEquipment"
+      ],
+      "body": [
+        "At the end of the Villain turn, destroy {H - 2} equipment cards.",
+        "The loot value of this card is $500,000."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "I'll take [b]this[/b]... and [b]this[/b]... and [b]this[/b]..."
+        }
+      ],
+      "flavorReference": "Lootcase, Mystery Comics #48",
+      "hitpoints": 5
+    },
+    {
+      "identifier": "PricelessAntiques",
+      "count": 2,
+      "title": "Priceless Antiques",
+      "keywords": [
+        "case",
+        "$600,000"
+      ],
+      "icons": [
+        "RedirectDamage"
+      ],
+      "body": [
+        "If this card would be dealt 3 or more damage, redirect that damage to the Hero target with the highest HP.",
+        "The loot value of this card is $600,000."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Legacy",
+          "text": "[b]Careful![/b]  Those look fragile!"
+        }
+      ],
+      "flavorReference": "Legacy, Freedom Five Summer Special #2",
+      "hitpoints": 6
+    },
+    {
+      "identifier": "Masterpiece",
+      "count": 2,
+      "title": "Masterpiece",
+      "keywords": [
+        "case",
+        "$700,000"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "GainHP"
+      ],
+      "body": [
+        "At the end of the Villain turn, {Lootcase} regains 5 HP.",
+        "The loot value of this card is $700,000."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "I find great art so soothing."
+        }
+      ],
+      "flavorReference": "Lootcase, Mystery Comics #48",
+      "hitpoints": 6
+    },
+    {
+      "identifier": "OneMillionDollars",
+      "count": 2,
+      "title": "One Million Dollars",
+      "keywords": [
+        "case",
+        "$1,000,000"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "GainHP"
+      ],
+      "body": [
+        "At the end of the Villain turn, all Case cards regain {H - 1} HP.",
+        "The loot value of this card is $1,000,000."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "And it's tax free, to boot!"
+        }
+      ],
+      "flavorReference": "Lootcase, Wraith Adventures #19",
+      "hitpoints": 9
+    },
+    {
+      "identifier": "BelovedChildhoodMemento",
+      "count": 1,
+      "title": "Beloved Childhood Memento",
+      "keywords": [
+        "case",
+        "$1"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "DealDamagePsychic"
+      ],
+      "body": [
+        "At the end of the Villain turn, the Hero with the lowest HP deals themself {H} psychic damage.",
+        "The loot value of this card is $1."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Bunker",
+          "text": "He.  Took.  Mister Bunny."
+        }
+      ],
+      "flavorReference": "Bunker, Freedom Five Summer Special #2",
+      "hitpoints": 8
+    },
+    {
+      "identifier": "BoughtOffGuard",
+      "count": 2,
+      "title": "Bought-Off Guard",
+      "keywords": [
+        "inside man"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "PlayCardExtra"
+      ],
+      "body": [
+        "At the end of the Villain turn, play the top X cards of the Villain deck, where X equals the number of Environment cards in play."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "It helps to have friends in{BR}the right places."
+        }
+      ],
+      "flavorReference": "Lootcase, Crime Wave: the Wraith #3",
+      "hitpoints": 7
+    },
+    {
+      "identifier": "ForgedAppraisal",
+      "count": 1,
+      "title": "Forged Appraisal",
+      "keywords": [
+        "ongoing"
+      ],
+      "icons": [
+      ],
+      "body": [
+        "Multiply the loot value of all Case cards by 2."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "I have the paperwork right here."
+        }
+      ],
+      "flavorReference": "Lootcase, Rook City Noir #1"
+    },
+    {
+      "identifier": "HiddenVault",
+      "count": 2,
+      "title": "Hidden Vault",
+      "keywords": [
+        "ongoing"
+      ],
+      "icons": [
+        "Indestructible"
+      ],
+      "body": [
+        "When this card enters play, reveal cards from the top of the Villain deck until a Case card is revealed.  Put the Case into play and move this card next it.  Shuffle the other revealed cards into the Villain deck.",
+        "This card and any card it is next to are indestructible."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "I'll save this for a rainy day."
+        }
+      ],
+      "flavorReference": "Lootcase, Mystery Comics #102"
+    },
+    {
+      "identifier": "Yoink",
+      "count": 2,
+      "title": "Yoink!",
+      "keywords": [
+        "ongoing"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "Discard"
+      ],
+      "body": [
+        "At the end of the Villain turn, each player moves a card from their hand, chosen randomly, under this card.  Cards under this card have no text.",
+        "For each card under this card, add $50,000 to the total loot value of all case cards in play."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "Sorry, was this yours?"
+        }
+      ],
+      "flavorReference": "Lootcase, Wraith Adventures #19"
+    },
+    {
+      "identifier": "ReturnVisit",
+      "count": 3,
+      "title": "Return Visit",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+        "DestroyOngoing",
+        "PlayCardNow"
+      ],
+      "body": [
+        "Destroy 2 Hero ongoing cards.",
+        "In descending order of loot value, put into play the {H - 2} Case cards with the highest loot values from among the Case cards in the Villain trash."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Lootcase",
+          "text": "You'd think they would have changed{BR}their security since last time..."
+        }
+      ],
+      "flavorReference": "Lootcase, Mystery Comics #102"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+﻿{
+  "name": "Clara Cloverfield",
+  "kind": "Environment",
+  "backgroundColor": "ff8f00",
+  "difficulty": 3,
+  "cards": [
+    {
+      "identifier": "ClaraCloverfield",
+      "count": 1,
+      "title": "Clara Cloverfield",
+      "kind": "Hero",
+      "keywords": [
+        "Intrepid Reporter"
+      ],
+      "icons": [
+        "Indestructible",
+        "LoseTheGame"
+      ],
+      "nemesisIdentifiers": [
+        "IntriguingComics.ClaraCloverfield"
+      ],
+      "body": [
+        "At the start of the game, put this card into play.  Shuffle the environment deck.",
+        "This card is considered a hero card.",
+        "If this card has 1 or more HP, it is indestructible.",
+        "If this card is destroyed or otherwise removed from play, the heroes lose."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "ClaraCloverfield",
+          "text": "Read all about it{BR}in tomorrow's [b]Rook City Gazette[/b]."
+        }
+      ],
+      "flavorReference": "Clara Cloverfield, Rook City Noir #3",
+      "hitpoints": 15
+    },
+    {
+      "identifier": "BrainwashedByliner",
+      "count": 1,
+      "title": "Brainwashed Byliner",
+      "keywords": [
+        "peril"
+      ],
+      "icons": [
+        "StartAndEndOfTurnAction",
+        "DealDamageProjectile"
+      ],
+      "body": [
+        "When this card enters play, destroy all Scoop cards in play.",
+        "At the end of the environment turn, {ClaraCloverfield} deals each hero target (other than herself) 1 projectile damage.",
+        "At the start of the environment turn, {ClaraCloverfield} deals each hero target (other than herself) 2 projectile damage."
+      ],
+      "flavorText": "Clara swept the gun back and forth{BR}robotically. There was not the slightest{BR}emotion on her face as her glassy eyes{BR}scanned the room for her next target."
+    },
+    {
+      "identifier": "CombatZoneCorrespondent",
+      "count": 1,
+      "title": "Combat Zone Correspondent",
+      "keywords": [
+        "peril"
+      ],
+      "icons": [
+        "DealDamage"
+      ],
+      "body": [
+        "When this card enters play, destroy all Scoop cards in play.",
+        "Whenever a hero target or a villain target deals a non-indestructible target 4 or more damage, they also deal {ClaraCloverfield} 1 damage of the same type."
+      ],
+
+      "flavorQuotes": [
+        {
+          "identifier": "Legacy",
+          "text": "Get to safety!"
+        },
+        {
+          "identifier": "ClaraCloverfield",
+          "text": "No way.  The story's [b]here[/b]."
+        }
+      ],
+      "flavorText": "“Get to safety!” Legacy shouted over the{BR}howling wind. “No way,” Clara called back,{BR}“The story's [b]here[/b].”"
+    },
+    {
+      "identifier": "HostageHoldingHenchman",
+      "count": 2,
+      "title": "Hostage-Holding Henchman",
+      "keywords": [
+        "peril"
+      ],
+      "icons": [
+        "CannotPlayCards",
+        "EndOfTurnAction",
+        "DealDamageMelee"
+      ],
+      "body": [
+        "When this card enters play, destroy all Scoop cards in play.",
+        "Environment cards may not be played.",
+        "At the end of the environment turn, this card deals {ClaraCloverfield} 3 melee damage."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "GrandWarlordVoss",
+          "text": "Seize her!"
+        }
+      ],
+      "flavorText": "“Seize her!” Voss cried. A pair of hands{BR}clamped down on Clara's shoulders. It{BR}was clear the Grand Warlord was not a{BR}believer in freedom of the press.",
+      "hitpoints": 5
+    },
+    {
+      "identifier": "JeopardizedJournalist",
+      "count": 1,
+      "title": "Jeopardized Journalist",
+      "keywords": [
+        "peril"
+      ],
+      "icons": [
+        "StartOfTurnAction",
+        "Destroy"
+      ],
+      "body": [
+        "When this card enters play, destroy all Scoop cards in play.",
+        "A player may skip their turn to destroy this card.",
+        "At the start of the environment turn, destroy {ClaraCloverfield}, even if another card says she's indestructible."
+      ],
+      "flavorText": "Clara struggled against the ropes binding{BR}her. How long had she been here? And could{BR}that rumbling sound coming from up the{BR}tracks be the Megalopolis Express already?"
+    },
+    {
+      "identifier": "RiskyReporting",
+      "count": 2,
+      "title": "Risky Reporting",
+      "keywords": [
+        "peril"
+      ],
+      "icons": [
+        "RedirectDamage"
+      ],
+      "body": [
+        "When this card enters play, destroy all Scoop cards in play.",
+        "Whenever the villain target with the highest HP deals damage to the hero target with the highest HP, redirect that damage to {ClaraCloverfield}."
+      ],
+      "flavorText": "As Clara crested the pile of rubble, she{BR}saw Omnitron aiming a disintegration ray{BR}at Chrono-Ranger. Suddenly, the robot's{BR}head snapped toward her."
+    },
+    {
+      "identifier": "EmergencyMedicine",
+      "count": 1,
+      "title": "Emergency Medicine",
+      "keywords": [
+        "rescue"
+      ],
+      "icons": [
+        "ReduceGainHP",
+        "GainHP"
+      ],
+      "body": [
+        "When this card enters play, destroy all Peril cards in play.",
+        "When a hero would regain HP, they may have {ClaraCloverfield} regain that much HP instead."
+      ],
+      "flavorText": "When the Scholar caught sight of{BR}the bloody gash on the reporter's{BR}head, he turned from the battle{BR}without hesitation."
+    },
+    {
+      "identifier": "GetBehindMe",
+      "count": 1,
+      "title": "\"Get Behind Me!\"",
+      "keywords": [
+        "rescue"
+      ],
+      "icons": [
+        "RedirectDamage"
+      ],
+      "body": [
+        "When this card enters play, destroy all Peril cards in play.",
+        "When {ClaraCloverfield} would be dealt damage, it may be redirected to the hero with the lowest HP."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Bunker",
+          "text": "Don't worry.  These energy blasts can't get through my armour."
+        },
+        {
+          "identifier": "ClaraCloverfield",
+          "text": "Can I quote you on that?"
+        }
+      ],
+      "flavorText": "Bunker crouched over the newswoman{BR}protectively. “Don't worry. These energy blasts{BR}can't get through my armor.” Clara grinned{BR}up at him. “Can I quote you on that?”"
+    },
+    {
+      "identifier": "LifeEnergyTransfusion",
+      "count": 1,
+      "title": "Life-Energy Transfusion",
+      "keywords": [
+        "rescue"
+      ],
+      "icons": [
+        "DealDamageEnergy",
+        "GainHP"
+      ],
+      "body": [
+        "When this card enters play, destroy all Peril cards in play.",
+        "Then, each hero may deal themselves 1 energy damage.  {ClaraCloverfield} regains X HP, where X is the total amount of damage dealt this way.",
+        "At the end of the environment turn, destroy this card."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "ClaraCloverfield",
+          "text": "Thought I was a gonner that time."
+        },
+        {
+          "identifier": "Tachyon",
+          "text": "Medically speaking, you were, for 37 seconds."
+        }
+      ],
+      "flavorText": "“Thought I was a goner that time,” Clara{BR}groaned as she opened her eyes. Tachyon{BR}switched the machine off, then replied,{BR}“Medically speaking, you were, for 37 seconds.”"
+    },
+    {
+      "identifier": "MidAirCatch",
+      "count": 1,
+      "title": "Mid-Air Catch",
+      "keywords": [
+        "rescue"
+      ],
+      "icons": [
+        "DestroyOngoing",
+        "CancelledDamageGreen"
+      ],
+      "body": [
+        "When this card enters play, destroy all Peril cards in play.",
+        "When {ClaraCloverfield} would be dealt damage, a player may destroy one of their ongoing cards to prevent that damage."
+      ],
+      "flavorText": "Clara plummetted faster and faster, her{BR}screams trailing upward, until her descent{BR}was brought to an abrupt halt... not by the{BR}ground, but by Fanatic's outstretched arms."
+    },
+    {
+      "identifier": "BreakingNews",
+      "count": 1,
+      "title": "Breaking News",
+      "keywords": [
+        "scoop"
+      ],
+      "icons": [
+        "Search",
+        "PlayCardNow"
+      ],
+      "body": [
+        "When this card enters play, destroy all Rescue cards in play.",
+        "Then, the player of the hero with the lowest HP may search their deck for an ongoing or equipment card and put it into play.",
+        "At the end of the environment turn, destroy this card."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "ClaraCloverield",
+          "text": "Wait. Since when do you have laser vision?"
+        }
+      ],
+      "flavorText": "“Wait. Since when do you have [b]laser{BR}vision[/b]?” Clara asked, her notebook{BR}appearing in her hands as if by{BR}magic."
+    },
+    {
+      "identifier": "ExclusiveInterview",
+      "count": 1,
+      "title": "Exclusive Interview",
+      "keywords": [
+        "scoop"
+      ],
+      "icons": [
+        "EndOfTurnAction",
+        "Discard"
+      ],
+      "body": [
+        "When this card enters play, destroy all Rescue cards in play.",
+        "At the end of the environment turn, reveal the top card of the villain deck.  Replace or discard it."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "BaronBlade",
+          "text": "Very well, Ms. Cloverfield. Perhaps your readers will appreciate the genius of my plan, even if the rest of the world does not."
+        }
+      ],
+      "flavorText": "“Very well, Ms. Cloverfield,” Baron Blade{BR}said at last. “Perhaps your readers will{BR}appreciate the genius of my plan, even{BR}if the rest of the world does not.”"
+    },
+    {
+      "identifier": "Expose",
+      "count": 1,
+      "title": "Exposé",
+      "keywords": [
+        "scoop"
+      ],
+      "icons": [
+        "StartAndEndOfTurnAction",
+        "DestroyTarget",
+        "DestroyOngoing"
+      ],
+      "body": [
+        "When this card enters play, destroy all Rescue cards in play.",
+        "At the end of the environment turn, destroy a villain ongoing card.",
+        "At the start of the environment turn, destroy the villain target with the lowest HP, other than a character card, if it has 10 or fewer HP."
+      ],
+      "flavorText": "Maia gave a grim nod as she finished reading{BR}and tossed the paper down onto her dining {BR}room table. The [i]Gazette[/i] had done its part, but{BR}the Wraith would take it from here."
+    },
+    {
+      "identifier": "FeatureStory",
+      "count": 1,
+      "title": "Feature Story",
+      "keywords": [
+        "scoop"
+      ],
+      "icons": [
+        "MakeDamageIrreducible"
+      ],
+      "body": [
+        "When this card enters play, destroy all Rescue cards in play.",
+        "Damage dealt to villain targets is irreducible."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "Citizen Autumn",
+          "text": "No one will know it was me who leaked this, right?"
+        },
+        {
+          "identifier": "ClaraCloverfield",
+          "text": "I always protect my sources."
+        }
+      ],
+      "flavorText": "“No one will know it was me who leaked{BR}this, right?” Citizen Autumn glanced around{BR}the alley nervously. Clara shook her head.{BR}“I always protect my sources.”"
+    }
+  ]
+}
