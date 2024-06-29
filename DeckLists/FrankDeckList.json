@@ -38,7 +38,7 @@
       "gameplay": [
         "When {Frank} is flipped to this side, set his HP to 13. Then reveal cards from the top of the villain deck until an order is revealed and put it into play. Shuffle the other revealed cards into the villain deck.",
         "At the start of the villain turn, if there are no bosses in play, reveal cards from the top of the villain deck until a boss is revealed and put it into play. Shuffle the other revealed cards into the villain deck.",
-        "If this card would be destroyed and there is at least 1 boss in play, flip it instead.",
+        "If this card would be destroyed and there is at least 1 boss in play, this card flips instead.",
         "Boss cards with 10 or more HP are indestructible.",
         "When a boss enters play, move all other boss cards to the villain trash (even if indestructible)."
       ],
@@ -184,6 +184,7 @@
         "order"
       ],
       "icons": [
+        "CounterDamage",
         "DealDamageMelee"
       ],
       "body": [
@@ -205,6 +206,7 @@
         "order"
       ],
       "icons": [
+        "EndOfTurnAction",
         "DealDamageMelee"
       ],
       "body": [
@@ -514,6 +516,7 @@
         "boss"
       ],
       "icons": [
+        "EndOfTurnAction",
         "DealDamageMelee"
       ],
       "nemesisIdentifiers": [
