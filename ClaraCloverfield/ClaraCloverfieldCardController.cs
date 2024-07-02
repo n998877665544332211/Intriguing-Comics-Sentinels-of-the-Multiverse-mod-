@@ -34,8 +34,8 @@ namespace IntriguingComics.ClaraCloverfield
 
             //If this card is destroyed, the heroes lose.
 
-            AddTrigger((MoveCardAction moveCard) => moveCard.CardToMove == base.Card && moveCard.Destination.Name == LocationName.OutOfGame && moveCard.CardSource.Card.Identifier != "TheScionReserve", (MoveCardAction m) => HeroesLoseResponse(m), TriggerType.GameOver, TriggerTiming.After);
-            AddBeforeDestroyAction(HeroesLoseResponse);         
+            AddTrigger((MoveCardAction moveCard) => moveCard.CardToMove == base.Card && !moveCard.Destination.IsInPlay && moveCard.CardSource.Card.Identifier != "TheScionReserve", (MoveCardAction m) => HeroesLoseResponse(m), TriggerType.GameOver, TriggerTiming.Before);
+            AddBeforeDestroyAction(HeroesLoseResponse);
         }
 
 
