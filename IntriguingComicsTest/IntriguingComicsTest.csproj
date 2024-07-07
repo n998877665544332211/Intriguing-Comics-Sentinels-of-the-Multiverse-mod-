@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.4.1.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.4.1.0\build\NUnit.props')" />
+  <Import Project="..\packages\NUnit3TestAdapter.4.5.0\build\net462\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.4.5.0\build\net462\NUnit3TestAdapter.props')" />
+  <PropertyGroup>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFE958F0-3C90-4493-A425-48A660B58E76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MyModTest</RootNamespace>
+    <AssemblyName>MyModTest</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=4.0.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.4.1.0\lib\net462\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework.legacy, Version=4.0.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.4.1.0\lib\net462\nunit.framework.legacy.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="EngineCommon">
+      <HintPath>..\..\..\..\..\Programs\Steam\steamapps\common\Sentinels of the Multiverse\Sentinels_Data\Managed\EngineCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SentinelsEngine">
+      <HintPath>..\..\..\..\..\Programs\Steam\steamapps\common\Sentinels of the Multiverse\Sentinels_Data\Managed\SentinelsEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClaraCloverfield\LifeEnergyTransfusionTest.cs" />
+    <Compile Include="ClaraCloverfield\ExclusiveInterviewTest.cs" />
+    <Compile Include="ClaraCloverfield\CombatZoneCorrespondentTest.cs" />
+    <Compile Include="ClaraCloverfield\GetBehindMeTest.cs" />
+    <Compile Include="ClaraCloverfield\RiskyReportingTest.cs" />
+    <Compile Include="ClaraCloverfield\JeopardizedJournalistTest.cs" />
+    <Compile Include="ClaraCloverfield\BrainwashedByliner.cs" />
+    <Compile Include="ClaraCloverfield\ExposeTest.cs" />
+    <Compile Include="ClaraCloverfield\EmergencyMedicineTest.cs" />
+    <Compile Include="ClaraCloverfield\HostageHoldingHenchmanTest.cs" />
+    <Compile Include="ClaraCloverfield\FeatureStoryTest.cs" />
+    <Compile Include="ClaraCloverfield\BreakingNewsTest.cs" />
+    <Compile Include="Frank\AssignedOutfitTest.cs" />
+    <Compile Include="Frank\BreakawayTest.cs" />
+    <Compile Include="Frank\CoverMyBackTest.cs" />
+    <Compile Include="Frank\FollowMyLeadTest.cs" />
+    <Compile Include="Frank\FrankCharacterTest.cs" />
+    <Compile Include="Frank\GetThemTest.cs" />
+    <Compile Include="Frank\LootcaseTest.cs" />
+    <Compile Include="Frank\LuckyPunchTest.cs" />
+    <Compile Include="Frank\MindReaperTest.cs" />
+    <Compile Include="Frank\RhymeSchemeTest.cs" />
+    <Compile Include="BaseTest.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="Frank\TheBaronessTest.cs" />
+    <Compile Include="Frank\TheBigJobTest.cs" />
+    <Compile Include="Frank\TheDeviousDivisorTest.cs" />
+    <Compile Include="Frank\TheHeelTest.cs" />
+    <Compile Include="Frank\ThemedWeaponTest.cs" />
+    <Compile Include="Frank\TheRegionalManager.cs" />
+    <Compile Include="Frank\TheRestOfTheGangTest.cs" />
+    <Compile Include="Frank\Thraiw.cs" />
+    <Compile Include="Frank\ZurkallaTest.cs" />
+    <Compile Include="ClaraCloverfield\ClaraCloverfieldCardTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IntriguingComics\IntriguingComics.csproj">
+      <Project>{44F8C838-553C-482C-B389-2B375B8590C9}</Project>
+      <Name>IntriguingComics</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.4.5.0\build\net462\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.4.5.0\build\net462\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\NUnit.4.1.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.4.1.0\build\NUnit.props'))" />
+  </Target>
+</Project>
