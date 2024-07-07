@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44F8C838-553C-482C-B389-2B375B8590C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>IntriguingComics</RootNamespace>
+    <AssemblyName>IntriguingComics</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="EngineCommon">
+      <HintPath>..\..\..\..\..\Programs\Steam\steamapps\common\Sentinels of the Multiverse\Sentinels_Data\Managed\EngineCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SentinelsEngine">
+      <HintPath>..\..\..\..\..\Programs\Steam\steamapps\common\Sentinels of the Multiverse\Sentinels_Data\Managed\SentinelsEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClaraCloverfield\BrainwashedBylinerCardController.cs" />
+    <Compile Include="ClaraCloverfield\BreakingNewsCardController.cs" />
+    <Compile Include="ClaraCloverfield\ClaraCloverfieldCardController.cs" />
+    <Compile Include="ClaraCloverfield\ClaraCloverfieldTurnTakerController.cs" />
+    <Compile Include="ClaraCloverfield\CombatZoneCorrespondentCardController.cs" />
+    <Compile Include="ClaraCloverfield\EmergencyMedicineCardController.cs" />
+    <Compile Include="ClaraCloverfield\Exclusive InterviewCardController.cs" />
+    <Compile Include="ClaraCloverfield\ExposeCardController.cs" />
+    <Compile Include="ClaraCloverfield\FeatureStoryCardController.cs" />
+    <Compile Include="ClaraCloverfield\GetBehindMeCardController.cs" />
+    <Compile Include="ClaraCloverfield\HostageHoldingHenchmanCardController.cs" />
+    <Compile Include="ClaraCloverfield\Jeopardized Journalist.cs" />
+    <Compile Include="ClaraCloverfield\LifeEnergyTransfusionCardController.cs" />
+    <Compile Include="ClaraCloverfield\MidAirCatchCardController.cs" />
+    <Compile Include="ClaraCloverfield\PerilCardController.cs" />
+    <Compile Include="ClaraCloverfield\RescueCardController.cs" />
+    <Compile Include="ClaraCloverfield\RiskyReportingCardController.cs" />
+    <Compile Include="ClaraCloverfield\ScoopCardController.cs" />
+    <Compile Include="DarkMindMod.MindReaper\TheIncorporealMindReaperTurnTakerController.cs" />
+    <Compile Include="DarkMindMod.MindReaper\TheIncorporealMindReaperCharacterCardController.cs" />
+    <Compile Include="Frank\AssignedOutfitCardController.cs" />
+    <Compile Include="Frank\BreakawayCardController.cs" />
+    <Compile Include="Frank\CoverMyBackCardController.cs" />
+    <Compile Include="Frank\FollowMyLeadCardController.cs" />
+    <Compile Include="Frank\FrankCharacterCardController.cs" />
+    <Compile Include="Frank\FrankTurnTakerController.cs" />
+    <Compile Include="Frank\GetThemCardController.cs" />
+    <Compile Include="Frank\LootcaseCardController.cs" />
+    <Compile Include="Frank\LuckyPunchCardController.cs" />
+    <Compile Include="Frank\MindReaperCardController.cs" />
+    <Compile Include="Frank\RhymeSchemeCardController.cs" />
+    <Compile Include="Frank\TheBaronessCardController.cs" />
+    <Compile Include="Frank\TheBigJobCardController.cs" />
+    <Compile Include="Frank\TheDeviousDivisorCardController.cs" />
+    <Compile Include="Frank\TheHeelCardController.cs" />
+    <Compile Include="Frank\ThemedWeaponCardController.cs" />
+    <Compile Include="Frank\TheRegionalManagerCardController.cs" />
+    <Compile Include="Frank\TheRestOfTheGangCardController.cs" />
+    <Compile Include="Frank\ThraiwCardController.cs" />
+    <Compile Include="Frank\ZurkallaCardController.cs" />
+    <Compile Include="Lootcase\BelovedChildhoodMementoCardController.cs" />
+    <Compile Include="Lootcase\BoughtOffGuardCardController.cs" />
+    <Compile Include="Lootcase\CollectorsItemCardController.cs" />
+    <Compile Include="Lootcase\FamilyHeirloomsCardController.cs" />
+    <Compile Include="Lootcase\ForgedAppraisalCardController.cs" />
+    <Compile Include="Lootcase\GoldBarsCardController.cs" />
+    <Compile Include="Lootcase\HiddenVaultCardController.cs" />
+    <Compile Include="Lootcase\LootcaseCharacterCardController.cs" />
+    <Compile Include="GrandWarlordVoss\InvaderVossTurnTakerController.cs" />
+    <Compile Include="Lootcase\LootcaseTurnTakerController.cs" />
+    <Compile Include="Lootcase\MasterpieceCardController.cs" />
+    <Compile Include="Lootcase\OneMillionDollarsCardController.cs" />
+    <Compile Include="Lootcase\PricelessAntiquesCardController.cs" />
+    <Compile Include="Lootcase\ReturnVisitCardController.cs" />
+    <Compile Include="Lootcase\ShinyJewelsCardController.cs" />
+    <Compile Include="Lootcase\YoinkCardController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GrandWarlordVoss\InvaderVossCharacterCardController.cs" />
+    <Compile Include="Spite\StalkingTheStreetsSpiteCharacterCardController.cs" />
+    <Compile Include="SpookyGhostwriter.GoldDragon\TheEverPopularGoldDragonDragonCharacterCardController.cs" />
+    <Compile Include="SpookyGhostwriter.GoldDragon\TheEverPopularGoldDragonHumanCharacterCardController.cs" />
+    <Compile Include="Testblazer\VantagePointCardController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DeckLists\PromoCardList.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DeckLists\ClaraCloverfieldDeckList.json" />
+    <EmbeddedResource Include="DeckLists\LootcaseDeckList.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DeckLists\FrankDeckList.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
