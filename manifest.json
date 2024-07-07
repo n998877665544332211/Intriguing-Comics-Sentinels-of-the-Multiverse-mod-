@@ -1,0 +1,29 @@
+{
+  "title": "Intriguing Comics",
+  "author": "Nicolas",
+  "description": [ "A mostly villain-focused mod for Sentinels of the Multiverse." ],
+  "version": "5.2.0",
+  "credits": [ "Lootcase, Clara Cloverfield, and Frank were created by me.  Other characters appearing in their decks or mentioned in flavour text were created by me, except as noted below.", "", "Mind Reaper was created by origamiswami and ottergraph1.  Gold Dragon and the Purplenator were created by Tesla_Coil.  Breakaway was created by Bart_KF.  The Baroness was created by Tonitrus.  Charlie was created by bobbertoriley.  Unmute was created by insomn.  Dynamo was created by Tosx.  Spellforge was created by Ruduen.  My thanks to all of them for their permission to use their creations, and especially to origamiswami and Tesla_Coil for permission to make variants for their decks.", "", "Spite, Grand Warlord Voss, the Wraith, Legacy, Bunker, Omnitron, Chrono-Ranger, the Scholar, Tachyon, Fanatic, Baron Blade, Citizen Autumn, Rook City, Megalopolis, and the Freedom Five are the property of Greater Than Games.", "", "Frank character card and cut-outs art by John Ellis.", "", "Clara Cloverfield nemesis icon art by insomn.", "", "Gold Dragon nemesis icon and dragon icon by Tesla_Coil.  Spellforge nemesis icon by Ruduen.  Glyph nemesis icon by Tonitrus.", "", "Images for Breakaway and Devious Divisor card art were created by me.", "", "Images from game-icons.net are used under Creative Commons license 3.0 (https://creativecommons.org/licenses/by/3.0/) for Lootcase and Frank's decks; copyright remains with the original creators.  ''Amphora'' (Priceless Antiques), ''Briefcase'' (Lootcase in Frank's deck), ''Crystal shrine'' (Shiny Jewels), ''Diploma'' (Forged Appraisal), ''Evasion'' (The Big Job), ''Exit door'' (Inside Man), ''Female vampire'' (The Baroness), ''Fork knife spoon'' (Family Heirlooms), ''High heel'' (The Heel), ''High punch'' (Get Them!), ''Mona Lisa'' (Masterpiece), ''Money stack'' (Lootcase character card flipped side), ''Newspaper'' (Collector's Item), ''Organigram'' (The Regional Manager), ''Rabbit head'' (Beloved Childhood Memento), ''Robber'' (Return Visit), ''Shoulder armor'' (Assigned Outfit), and ''Suitcase'' (Lootcase character card) by Delapouite.  ''Back pain'' (Cover My Back!), ''Boxing glove'' (Zurkalla), ''Cash'' (One Million Dollars), ''Cog lock'' (Hidden Vault), ''Cultist'' (Thraiw), ''Dark squad'' (The Rest of the Gang), ''Metal bar'' (Gold Bars), ''Punch blast'' (Lucky Punch), ''Quill and ink'' (Rhyme Scheme), ''Ray gun'' (Themed Weapon), ''Sly'' (Mind Reaper), ''Snatch'' (Yoink!), and ''Two shadows'' (Follow My Lead!) by Lorc.  ''Knockout'' (Frank character card flipped side) by Skoll.  The flipped side of Lootcase's character card contains an adaptation combining ''Suitcase'' and ''Money stack''.", "", "Other nemesis icons by Greater Than Games.  Other placeholder card images and cut-outs by Handelabra Games.", "", "This mod remains published to Steam Workshop subject to the clarification by John Arnold of Handelabra Games on behalf of ''SOTM Team'' (Handelabra Games Inc. and/or Greater Than Games, LLC) that nothing in the ''Sentinels of the Multiverse Steam Workshop Policies'' (including but not limited to the phrase ''SOTM Team retains and reserves all rights in and to the Workshop and all of its content'') confers upon SOTM Team any rights to user-generated and/or user-submitted content.  All rights to the decks and variants in this mod remain with me.  Rights to the characters appearing in this mod and art used by this mod are as noted in the credits above.", "", "Thanks to Kelly and Eric for playtesting assistance.", "", "Thanks to Bart_KF, origamiswami, Jp, Mr. Edge Case, and wrhyme29 for additional feedback and assistance.", "", "Thanks to the Workshop Discord for miscellaneous assistance.", "", "I would like to acknowledge that the creation of this mod was made possible in part by studying the code of the official cards and of the mods for The Cauldron, Spooky Ghostwriter, and Bart_KF." ],
+  "color": "4b0082",
+  "namespace": "IntriguingComics",
+  "dll": "IntriguingComics.dll",
+  "decks": {
+    "heroes": [
+    ],
+    "villains": [
+      "Lootcase", "Frank"
+    ],
+    "teamVillains": [
+    ],
+    "environments": [
+      "ClaraCloverfield"
+    ]
+  },
+  "variants": {
+    "GrandWarlordVoss": [ "InvaderVossCharacter" ],
+    "Spite": [ "StalkingTheStreetsSpiteCharacter" ],
+    "DarkMindMod.MindReaper": [ "TheIncorporealMindReaperCharacter" ],
+    "SpookyGhostwriter.GoldDragon": [ "TheEverPopularGoldDragonHumanCharacter" ]
+  },
+  "publishedFileId": 2495145366
+}
